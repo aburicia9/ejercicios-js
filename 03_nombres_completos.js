@@ -19,3 +19,11 @@ const family = [
   { firstName: 'Josefa', lastName: 'López', age: 13, sex: 'f', relationship: 'sobrina' },
   { firstName: 'Javier', lastName: 'López', age: 10, sex: '', relationship: 'sobrino' }
 ]
+
+for (const integrante of family) {
+  console.log(`Nombre: ${integrante.firstName} ${integrante.lastName}`);
+  console.log(`Edad: ${integrante.age}`);
+  console.log(`Sexo: ${integrante.sex}`);
+  console.log(`Parentesco: ${integrante.relationship}`);
+  console.log('------------------------');
+}
