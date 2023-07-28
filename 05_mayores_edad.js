@@ -32,6 +32,6 @@ const family = [
 
 // console.log("Hay "+contador+" menores de edad")
 
-const contadorMenoresEdad = family.filter(integrante => integrante.age <= 18).length;
+const contadorMenoresEdad = family.filter(integrante => integrante.age < 18).length;
 
 console.log("Hay " + contadorMenoresEdad + " menores de edad");
