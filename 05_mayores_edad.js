@@ -23,13 +23,15 @@ const family = [
 
 
 //Filter para seleccionar cada uno de los integrantes menores de 18 años
-let contador = 0
-for (const edad of family){
-    
-    if(edad.age<=18){
-        contador++
-    }
-    
-}
+// let contador = 0
+// for (const edad of family){
+//     if(edad.age<=18){
+//         contador++
+//     }    
+// }
 
-console.log("Hay "+contador+" menores de edad")
+// console.log("Hay "+contador+" menores de edad")
+
+const contadorMenoresEdad = family.filter(integrante => integrante.age <= 18).length;
+
+console.log("Hay " + contadorMenoresEdad + " menores de edad");
