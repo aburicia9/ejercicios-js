@@ -40,4 +40,11 @@ const integrantesFamilia = [
         sexo: 'Masculino',
         parentesco: 'Hermano/a',
     },
+    {
+        nombre: 'Marino',
+        apellido: 'Perez',
+        edad: 24,
+        sexo: 'Masculino',
+        parentesco: 'Hermano/a',
+    }
     ]
