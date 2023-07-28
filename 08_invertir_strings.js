@@ -3,8 +3,15 @@
 //
 
 function revertString(txt){
- const txt = []
+ const texto = txt
+ const miArray = texto.split("")
+//  console.log(miArray)
+ const nuevo = miArray.reverse()
+ const final = nuevo.join("")
+ return final
 }
 
-revertString("Hola Mundo")
-revertString("Hello World")
+const revertir1 = revertString("Hola Mundo")
+const revertir2 = revertString("Hello World")
+console.log(revertir1)
+console.log(revertir2)
