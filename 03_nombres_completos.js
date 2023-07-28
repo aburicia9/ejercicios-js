@@ -30,3 +30,11 @@ for (const integrante of family) {
 
 const names02= family.map(({firstName, lastName})=> `${firstName} ${lastName}`)
 console.log(names02)
+
+const names03 =[]
+family.forEach(member =>{
+    names03.push(member.firstName + " "+member.lastName)
+
+})
+
+console.log(names03)
