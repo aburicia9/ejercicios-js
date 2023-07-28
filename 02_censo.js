@@ -14,7 +14,7 @@ const integrantesFamilia = [
     },
     {
         nombre: 'Maria',
-        apellido: 'Perez',
+        apellido: 'Ruiz',
         edad: 70,
         sexo: 'Femenino',
         parentesco: 'Abuela',
